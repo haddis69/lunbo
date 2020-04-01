@@ -19,7 +19,7 @@ var $banner=(function () {
         +'<li>3</li>'
         +'<li>4</li>'
         +'<li>5</li>'
-    +'</ul>');
+        +'</ul>');
     function show() {
         var $box =$('#box');
         $box.append($innerHtml);
