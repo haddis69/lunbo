@@ -20,12 +20,10 @@ module.exports = function (grunt) {
         }
       },
       uglify: {
-        main: {
-          files: [{
-            expand: true,
-            src: ['*.js'],
-            dest: 'dist/'
-          }]
+        release:{
+          files: {
+            'dist/js/index.js': 'js/index.js'
+          }
         }
       },
       imagemin: {                               
